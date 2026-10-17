@@ -1,5 +1,13 @@
 # M4C Email Ramp-Up Engine
 
+**What it is:** A self-governing bulk political email/SMS sending system with budget-aware throttling and automatic pause/resume.
+**Why it existed:** A shoestring-budget campaign needed to reach 100K+ people before a 12-day deadline, without a dedicated ops team or a five-figure managed sending tool.
+**What I owned:** The full architecture — shared-budget ramp, reputation-based auto-pause, delivery verification, and a self-hosted email validator built specifically to avoid uploading voter data to a third party.
+**Stack:** PostgreSQL, n8n, Listmonk, AWS SES.
+**Production status:** Deployed and exercised against real sends at scale (tens of thousands of recipients).
+
+---
+
 Documentation for a self-hosted, abuse-resistant bulk political email sending
 system, built for the Friends of Melissa Chaudhry for Congress campaign to
 reach a 109,000+ person voter list ahead of a 12-day ballot deadline.
